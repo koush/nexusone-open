@@ -17,55 +17,8 @@
 # Build configuration for AOSP on Nexus One
 # $(call inherit-product, build/target/product/generic.mk)
 
-# This is the list of apps included in the generic AOSP build
-# PRODUCT_PACKAGES := \
-    AccountAndSyncSettings \
-    ApplicationsProvider \
-    Bluetooth \
-    Browser \
-    BugReport \
-    Calculator \
-    Calendar \
-    CalendarProvider \
-    Camera \
-    CertInstaller \
-    Contacts \
-    ContactsProvider \
-    DeskClock \
-    DownloadProvider \
-    DrmProvider \
-    Email \
-    Gallery3D \
-    GlobalSearch \
-    GoogleSearch \
-    HTMLViewer \
-    LatinIME \
-    Launcher2 \
-    LiveWallpapers \
-    LiveWallpapersPicker \
-    MagicSmokeWallpapers \
-    MediaProvider \
-    Mms \
-    Music \
-    PackageInstaller \
-    Phone \
-    PicoTts \
-    Provision \
-    Settings \
-    SettingsProvider \
-    SoundRecorder \
-    SubscribedFeedsProvider \
-    SyncProvider \
-    TelephonyProvider \
-    TtsService \
-    UserDictionaryProvider \
-    VisualizationWallpers \
-    VoiceDialer \
-    VpnServices \
-    framework-res \
-	libRS \
-	librs_jni
-	
+# This should be defined in another .mk included by hdpi/opengles2.0 devices or something.
+# TODO/FIXME
 PRODUCT_PACKAGES += \
 	DeskClock \
   Gallery3D \
